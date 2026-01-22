@@ -15,6 +15,27 @@ let coffeeData = [
     name: "Falooda",
     price: 0.5,
   },
+
+  {
+    name: "Espresso",
+    price: 3.0,
+  },
+
+  {
+    name: "Latte",
+    price: 4.0,
+  },
+
+  {
+    name: "Mocha",
+    price: 4.75,
+  },
+
+  {
+    name: "Americano",
+    price: 3.5,
+  },
+
 ];
 
 function Menu() {

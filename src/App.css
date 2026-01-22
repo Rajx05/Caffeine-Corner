@@ -1,0 +1,7 @@
+body {
+  background-image: url("../public/coffee-beans-bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
