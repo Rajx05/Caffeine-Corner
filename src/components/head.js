@@ -1,9 +1,9 @@
 function Head() {
   return (
-    <div className="navbar m-3 sticky top-1">
-      <nav className="bg-amber-900 p-4 shadow-lg rounded-full">
+    <div className="navbar m-3 mb-20 sticky top-1">
+      <nav className="bg-[#38211E] p-4 shadow-lg rounded-md">
         <div className="flex justify-between items-center max-w-7xl mx-auto ">
-          <h1 className="text-white text-2xl font-bold">Coffee Cafe</h1>
+          <h1 className="text-white text-2xl font-bold">Caffeine Corner</h1>
           <ul className="flex gap-6">
             <li>
               <a href="#" className="text-white hover:text-blue-200">

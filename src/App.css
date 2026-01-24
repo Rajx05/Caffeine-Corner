@@ -1,5 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  background-image: url("../public/coffee-beans-bg.jpeg");
+  background-image: url("../public/coffee-beans-bg.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

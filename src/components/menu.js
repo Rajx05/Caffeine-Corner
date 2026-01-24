@@ -35,12 +35,11 @@ let coffeeData = [
     name: "Americano",
     price: 3.5,
   },
-
 ];
 
 function Menu() {
   return (
-    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+    <div class="grid auto-cols-[minmax(0,1fr)] grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 m-5">
       {coffeeData.map((coffee) => (
         <Coffee name={coffee.name} price={coffee.price} />
       ))}
